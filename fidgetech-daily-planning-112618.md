@@ -24,22 +24,9 @@
 
 #### Please list the names of the lessons you completed today:
 
-(remove or add more bullet points as needed)
-
-*
-
-*
-
-*
-
+* 2.4 - More Branching (Partial progress)
 
 
 #### Please list the names of the projects you worked on today:
 
-(remove or add more bullet points as needed)
-
-*
-
-*
-
-*
+* 2.4 - More Branching: Political Meter (Established initial form for some user input prior to questions and started a primary form for the meter)
