@@ -15,7 +15,7 @@ The primary purpose of this unit's assignments is to explore and demonstrate how
 * To access repository for project and review code, first clone repository at the appropriate link, then use Git Bash and/or Atom to open the project folder.
 * The following index numbers and their matching CSS and JS files correlate to the following assignments of the lesson:
 
-1. More Branching: Celebrity Dating Quiz  (Custom-spin: Which Mega Man Robot Master are you most like?)
+1. More Branching: Celebrity Dating Quiz
 
 2. More Branching: Political Meter
 
