@@ -25,22 +25,9 @@
 
 #### Please list the names of the lessons you completed today:
 
-(remove or add more bullet points as needed)
-
-*
-
-*
-
-*
-
+* 2.4 - More Branching (progress on assignment)
 
 
 #### Please list the names of the projects you worked on today:
 
-(remove or add more bullet points as needed)
-
-*
-
-*
-
-*
+* 2.4 - More Branching - Political Meter (Color spectrum): primary form established, creating draft scripts for calculating where on the spectrum a user might be in terms of favorite color.
