@@ -16,7 +16,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
   $("form#mainForm").submit(function(event) {
-    @("div#formB").hide();
+    $("div#formB").hide();
     $("div#endDiv").show();
     event.preventDefault();
   });
