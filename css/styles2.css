@@ -1,0 +1,23 @@
+#formB, #resetForNew {
+  display: none;
+}
+
+.spectrumA {
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+.spectrumB {
+  background-image: linear-gradient(to right, yellow, green);
+}
+
+.spectrumC {
+  background-image: linear-gradient(to right, green, blue);
+}
+
+.spectrumD {
+  background-image: linear-gradient(to right, blue, purple);
+}
+
+.spectrumE {
+  background-image: linear-gradient(to right, purple, red);
+}

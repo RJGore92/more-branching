@@ -11,26 +11,32 @@
   <body>
     <div class="container">
       <div id="formA">
+        <h3>Welcome.</h3>
+        <h6>Before we try to guess your personal color range, we'd like to ask for just some simple personal information first.</h6>
         <form id="initialForm">
           <div class="form-group">
-            <label for="prelimInputA">Input your name:</label>
-            <input type="text" class="form-control" name="prelimInputA">
+            <label for="prelimInputA1">Input your first name:</label>
+            <input type="text" class="form-control" id="prelimInputA1">
+          </div>
+          <div class="form-group">
+            <label for="prelimInputA2">Input your last name:</label>
+            <input type="text" class="form-control" id="prelimInputA2">
           </div>
           <div class="form-group">
             <label for="prelimInputB">Input your date of birth.</label>
-            <input type="date" class="form-control" name="prelimInputB">
+            <input type="date" class="form-control" id="prelimInputB">
           </div>
           <div class="form-group">
             <label>Select your Gender:</label>
             <div class="radio">
               <label>
-                <input type="radio" name="gender" value="male" checked>
+                <input type="radio" name="gender" value="Male" checked>
                 Male
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" value="Female">
                 Female
               </label>
             </div>
@@ -38,8 +44,10 @@
           <button type="submit" class="btn">Proceed</button>
         </form>
       </div>
-      <div class="formB">
-        <form id="mainFormA">
+      <div id="formB">
+        <h6>Welcome to our survey, <span id="firstName"></span>.  Take your time to complete this quick survey.</h6>
+        <h6>When you finish, we'll guess at what color fits you best.</h6>
+        <form id="mainForm">
           <div class="form-group">
             <label>When it comes to Seasons, which is your favorite?</label>
             <div class="radio">
@@ -86,7 +94,7 @@
             <label>Around what time do you consider yourself most active?</label>
             <div class="radio">
               <label>
-                <input type="radio" name="time" value="morning">
+                <input type="radio" name="time" value="morning" checked>
                 Morning
               </label>
             </div>
@@ -109,7 +117,17 @@
               </label>
             </div>
           </div>
+          <label>Click below to show where most on the color spectrum you are most likely.</label>
+          <button type="submit" class="btn">Submit</button>
         </form>
+      </div>
+      <div id="endDiv">
+        <div id="newInputConfirmation">
+          <form id="resetForNew">
+            <label>Click below for a new survey.</label>
+            <button type="submit" class="btn">New Survey</button>
+          </form>
+        </div>
       </div>
     </div>
   </body>
