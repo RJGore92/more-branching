@@ -26,6 +26,8 @@ $(document).ready(function() {
     inputGender = null;
     $("div#endDiv").hide();
     $("div#formA").show();
+    $("#initialForm")[0].reset();
+    $("#mainForm")[0].reset();
     event.preventDefault();
   });
 });
