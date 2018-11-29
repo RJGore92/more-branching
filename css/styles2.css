@@ -1,5 +1,8 @@
-#formB, #endDiv {
+#formB, #resetDiv, #resultLogDiv {
   display: none;
+}
+.spectRange {
+  height: 40px;
 }
 
 .spectrumA {
